@@ -1,0 +1,56 @@
+### Footprint positions - created on 2025-12-31T19:15:21-0500 ###
+### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                                                PosX       PosY       Rot  Side
+C1        0.1_uf       C_0603_1608Metric                                   19.9000    15.9500    0.0000  top
+C2        10_uf        C_1206_3216Metric                                   48.4250     8.5000    0.0000  top
+C3        0.1_uf       C_0603_1608Metric                                   55.6250     6.2000    0.0000  top
+C4        22_uf        C_1206_3216Metric                                   56.1000    21.1250  -90.0000  top
+C5        0.1_uf       C_0603_1608Metric                                   13.1250    20.1000    0.0000  top
+C6        0.1_uf       C_0603_1608Metric                                   14.5250    13.7000  180.0000  top
+C7        0.1_uf       C_0603_1608Metric                                    7.6000    11.2000   90.0000  top
+C8        22_uf        C_1206_3216Metric                                   53.6000    21.1250  -90.0000  top
+C9        100µF       CP_Elec_6.3x5.9                                     36.4000     4.7000    0.0000  top
+C10       0.1_uf       C_0603_1608Metric                                    9.4000    11.5000   90.0000  top
+C11       75_pf        C_0603_1608Metric                                   56.6250     3.4000    0.0000  top
+C12       10_uf        C_1206_3216Metric                                   48.4250    12.8000    0.0000  top
+C14       0.1_uf       C_0603_1608Metric                                   40.8250    10.8000  180.0000  top
+C15       75_pf        C_0603_1608Metric                                   42.2000    17.4000  -90.0000  top
+C16       22_uf        C_1206_3216Metric                                   30.0250    10.9000    0.0000  top
+C17       22_uf        C_1206_3216Metric                                   34.8000    10.9000  180.0000  top
+C18       100µF       CP_Elec_6.3x5.9                                     46.7000    19.0000   90.0000  top
+C19       22_uf        C_1206_3216Metric                                   52.1000    16.3000   90.0000  top
+C20       22_uf        C_1206_3216Metric                                   30.0250     8.4000    0.0000  top
+J2        ~            JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal     3.5000    15.2500  -90.0000  top
+J5        Motor_1      Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical           23.1000     3.2000    0.0000  top
+J7        pres_1       PinHeader_1x02_P2.54mm_Vertical                     15.1000     6.4000    0.0000  top
+J8        pres_2       PinHeader_1x02_P2.54mm_Vertical                     11.1000     6.4000    0.0000  top
+J9        switch       PinHeader_1x02_P2.54mm_Vertical                     24.8750    21.8000  -90.0000  top
+L1        12_uh        L_Bourns-SRU1028_10.0x10.0mm                        58.8000    12.7000   90.0000  top
+L2        12_uh        L_Bourns-SRU1028_10.0x10.0mm                        33.3000    18.3000  180.0000  top
+Q1        SS8550       SOT-23                                              19.2000    13.0000  180.0000  top
+R1        5.1k         R_0603_1608Metric                                   17.9000     5.5750   90.0000  top
+R2        5.1k         R_0603_1608Metric                                    8.1000     5.5750   90.0000  top
+R3        10k          R_0603_1608Metric                                   18.5000     2.8000  180.0000  top
+R4        10k          R_0603_1608Metric                                   22.6000     7.8000    0.0000  top
+R5        511k         R_0603_1608Metric                                   49.2000    10.7000  180.0000  top
+R6        100k         R_0603_1608Metric                                   51.7000     9.4750  -90.0000  top
+R7        13.3k        R_0603_1608Metric                                   52.4750     1.8000    0.0000  top
+R8        100k         R_0603_1608Metric                                   55.5000     1.8000    0.0000  top
+R9        10k          R_0603_1608Metric                                   16.7000    16.7000   90.0000  top
+R10       10k          R_0603_1608Metric                                   25.9000     7.8000  180.0000  top
+R11       10k          R_0603_1608Metric                                   26.6000    11.9750   90.0000  top
+R12       10k          R_0603_1608Metric                                   19.1000     9.3000  180.0000  top
+R13       511k         R_0603_1608Metric                                   44.5750    12.8000    0.0000  top
+R14       100k         R_0603_1608Metric                                   41.3000    12.7000  180.0000  top
+R15       13.3k        R_0603_1608Metric                                   42.2000    20.4750  -90.0000  top
+R16       154k         R_0603_1608Metric                                   42.6000    14.4000  180.0000  top
+R17       10k          R_0603_1608Metric                                   26.2000    17.9750   90.0000  top
+U1        ADS1015IDGS  TSSOP-10_3x3mm_P0.5mm                               14.0500    10.9000  180.0000  top
+U2        74LVC1G126   SOT-23-5                                            23.5500    12.1375   90.0000  top
+U3        TPS54302     SOT-23-6                                            44.2500     9.5625   90.0000  top
+U5        BNO085       LGA-28_5.2x3.8mm_P0.5mm                             11.6125    17.0000  180.0000  top
+U6        TPS54302     SOT-23-6                                            51.9625     4.4500    0.0000  top
+U8        74LVC1G125   SOT-23-5                                            23.3500    17.6375   90.0000  top
+## End

@@ -1,0 +1,23 @@
+### Footprint positions - created on 2026-03-06T16:05:16-0500 ###
+### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                          PosX       PosY       Rot  Side
+C1        15_uf        C_1206_3216Metric             20.6000    15.6000  180.0000  top
+C2        100_nf       C_0603_1608Metric             21.9000    21.7000  180.0000  top
+C3        100_pf       C_0603_1608Metric             23.9625    18.8750  -90.0000  top
+C4        47_uf        C_1206_3216Metric              6.7000    21.9000  180.0000  top
+C5        47_uf        C_1206_3216Metric             11.8000    22.3000    0.0000  top
+C6        100_nf       C_0603_1608Metric             34.1250    13.6000    0.0000  top
+C7        22_pf        C_0603_1608Metric             46.4700    15.1950    0.0000  top
+C8        22_pf        C_0603_1608Metric             41.6000    15.1950  180.0000  top
+L2        15_uH        L_Changjiang_FNR6045S         13.7000    17.3500   90.0000  top
+R1        100kOhm      R_0603_1608Metric             25.6625    18.9000  -90.0000  top
+R2        13.3kOhm     R_0603_1608Metric             25.6625    15.7000  -90.0000  top
+R3        120_Ohm      R_0603_1608Metric             53.6000    11.1750   90.0000  top
+R4        1kOhm        R_0603_1608Metric             38.3000     6.9000   90.0000  top
+R5        10kOhm       R_0603_1608Metric             29.1000    19.9000   90.0000  top
+U2        MCP2515-xST  TSSOP-20_4.4x6.5mm_P0.65mm    33.5250    18.3950   90.0000  top
+U3        SN65HVD230   SOIC-8_3.9x4.9mm_P1.27mm      34.5950     8.7250  -90.0000  top
+U4        TPS54302     SOT-23-6                      20.7625    18.9500    0.0000  top
+## End
