@@ -3536,6 +3536,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Variable"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Variable"
+				(at -2.54 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Variable resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Variable_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Variable_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:TPS54302"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5143,7 +5281,7 @@
 	)
 	(text "ADC for pressure sensors"
 		(exclude_from_sim no)
-		(at 80.772 184.658 0)
+		(at 80.518 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6020,6 +6158,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 181.61) (xy 80.01 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4878ffc0-17d5-4d99-a34e-b6353be07c33")
+	)
+	(wire
+		(pts
 			(xy 80.01 172.72) (xy 87.63 172.72)
 		)
 		(stroke
@@ -6490,6 +6638,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 175.26) (xy 87.63 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bdaf13-913f-4c4d-9766-08840f701520")
+	)
+	(wire
+		(pts
 			(xy 113.03 119.38) (xy 142.24 119.38)
 		)
 		(stroke
@@ -6707,6 +6865,16 @@
 			(type default)
 		)
 		(uuid "9bd9949b-f9d3-4a62-bbc9-d0914f43d396")
+	)
+	(wire
+		(pts
+			(xy 80.01 181.61) (xy 80.01 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cce5913-ac56-4aeb-aa37-55560a3c530d")
 	)
 	(wire
 		(pts
@@ -7643,7 +7811,7 @@
 			(uuid "fd2c46a1-7aae-42a9-93da-4ab8c0ebf781")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -7706,7 +7874,7 @@
 			(uuid "fdfe2621-3322-4e6b-8d8a-a69772548e87")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR04")
 					(unit 1)
@@ -7769,7 +7937,7 @@
 			(uuid "c4a8cca2-2b39-45ae-a676-abbcbbb9291c")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
 					(unit 1)
@@ -7832,7 +8000,7 @@
 			(uuid "6d128834-dfd6-4792-956f-f932023802bf")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
 					(unit 1)
@@ -8121,7 +8289,7 @@
 			(uuid "782d2c1f-9599-409d-a3cc-c1b6fda247d8")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
 					(unit 1)
@@ -8720,7 +8888,7 @@
 			(uuid "cd39823b-3fa7-43ad-9bc1-681f67d680fe")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR040")
 					(unit 1)
@@ -9160,7 +9328,7 @@
 			(uuid "7a3db3c2-2498-432d-ad66-41f6f0a99245")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
 					(unit 1)
@@ -9288,7 +9456,7 @@
 			(uuid "35ef8147-9f84-4cad-8582-c28a580554fe")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
 					(unit 1)
@@ -9475,7 +9643,7 @@
 			(uuid "595034ed-ed6b-4c7e-a82b-d46d617c9b1b")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C8")
 					(unit 1)
@@ -9542,7 +9710,7 @@
 			(uuid "b0c32e2b-9838-40a1-9ff2-37ed01c844a9")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
 					(unit 1)
@@ -9717,7 +9885,7 @@
 			(uuid "9e8441dc-9378-4ed1-8c19-ec68b2334c1e")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R8")
 					(unit 1)
@@ -10078,7 +10246,7 @@
 			(uuid "bc3ebdf8-5fb1-4eae-8daa-80043e1164a2")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
@@ -10442,7 +10610,7 @@
 			(uuid "0991fcd3-d278-4d9a-865d-7ecb4433efe0")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -10617,9 +10785,76 @@
 			(uuid "c56dde31-d2ea-445a-b0dd-e4579f22158c")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3483b015-31e0-4269-a42c-2f2a2a22688f")
+		(property "Reference" "#PWR018"
+			(at 66.04 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13286d5b-2bec-494e-9cf8-33b2889bf499")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10793,7 +11028,7 @@
 			(uuid "c886322e-9f68-4f54-8852-63dc7a0ebf33")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R18")
 					(unit 1)
@@ -11237,7 +11472,7 @@
 			(uuid "85486d70-a94d-4a29-96d6-dbcb3c23619f")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
 					(unit 1)
@@ -11412,7 +11647,7 @@
 			(uuid "1305672e-403a-4dd2-b7c3-eb500e7c66da")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
 					(unit 1)
@@ -11590,7 +11825,7 @@
 			(uuid "4e7124f9-249d-4a96-b237-0a10772813aa")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 1)
@@ -11953,7 +12188,7 @@
 			(uuid "cc91cbba-7ec5-4faa-884a-c9b2a092d87c")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -12327,7 +12562,7 @@
 			(uuid "8b012560-96fe-4f30-9dab-f6e5b3a23934")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -12505,7 +12740,7 @@
 			(uuid "82f2b05e-4e3e-4334-8aac-18359516da20")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
 					(unit 1)
@@ -12758,7 +12993,7 @@
 			(uuid "ad40fa84-fda6-4ef6-8240-6cd2b64f2bb6")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U5")
 					(unit 1)
@@ -12936,7 +13171,7 @@
 			(uuid "06454aa7-9776-4d9b-b85c-8094cf3621a4")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
 					(unit 1)
@@ -13003,7 +13238,7 @@
 			(uuid "76e1ea55-0bb9-4e27-a8b6-5a3215d47fdd")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR012")
 					(unit 1)
@@ -13136,185 +13371,9 @@
 			(uuid "fdc7f8cd-1b5e-4f65-adbe-48ca52631c7c")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "623266f1-f611-4fbc-9917-ccd2e5c002f2")
-		(property "Reference" "R1"
-			(at 72.39 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "110 Ohm"
-			(at 72.39 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 165.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 72.39 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea4a5983-d033-4dcc-b157-66f7dec323dc")
-		)
-		(pin "2"
-			(uuid "673a920b-3c45-46e7-ba55-7aa3c7ceace8")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13379,7 +13438,7 @@
 			(uuid "5a311622-6555-41e3-9eb0-5c65f6c3cb5d")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
 					(unit 1)
@@ -13554,7 +13613,7 @@
 			(uuid "158f3f79-f9e1-4e02-ab6d-42a6d249ee8f")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
 					(unit 1)
@@ -13749,7 +13808,7 @@
 			(uuid "58cebfb2-3f3f-43ee-b49e-69ce42354d20")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U8")
 					(unit 1)
@@ -13816,7 +13875,7 @@
 			(uuid "879a520d-20ba-4099-9d01-78178f227723")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR036")
 					(unit 1)
@@ -13882,7 +13941,7 @@
 			(uuid "9bd27c9a-7d54-425e-ac30-78587d5662ac")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR025")
 					(unit 1)
@@ -14141,7 +14200,7 @@
 			(uuid "5e597e0a-93dd-443b-8b86-5f7c36d52527")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR041")
 					(unit 1)
@@ -14328,6 +14387,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 54.61 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ceba42-2d68-47ef-a7fd-f520540f6e0c")
+		(property "Reference" "J6"
+			(at 54.61 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "extra analog breakout"
+			(at 54.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
+			(at 54.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f51a7b02-f451-4a4f-9203-185fb06ba4f6")
+		)
+		(pin "2"
+			(uuid "d7b2d594-4075-4764-ad4d-5dbe8cbb2ca2")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 143.51 54.61 0)
 		(unit 1)
@@ -14505,7 +14632,7 @@
 			(uuid "6ebea4e5-922b-4342-9c70-4adb3e8df133")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C9")
 					(unit 1)
@@ -14690,7 +14817,7 @@
 			(uuid "e949390c-ea94-46fa-85c7-536483bcb159")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J7")
 					(unit 1)
@@ -15184,7 +15311,7 @@
 			(uuid "652c6967-d316-4c52-9689-653c43fb771d")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR020")
 					(unit 1)
@@ -15369,7 +15496,7 @@
 			(uuid "b17786ed-3945-4f55-8689-eb1409887a6c")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "L2")
 					(unit 1)
@@ -15567,7 +15694,7 @@
 			(uuid "4536bcea-c00f-4d09-9392-256fc3c07fcf")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U6")
 					(unit 1)
@@ -15634,7 +15761,7 @@
 			(uuid "dacb3c91-f78c-41ad-9f7f-50e8b2f97693")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
 					(unit 1)
@@ -15845,7 +15972,7 @@
 			(uuid "fe8b0c40-759f-429e-a922-7609280a24bd")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
 					(unit 1)
@@ -15912,7 +16039,7 @@
 			(uuid "85f221de-79aa-4030-a374-c7111a1cfd2b")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
 					(unit 1)
@@ -15978,7 +16105,7 @@
 			(uuid "fe9e3503-525e-4832-bc1b-70cea4d88ab1")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
 					(unit 1)
@@ -16044,7 +16171,7 @@
 			(uuid "34e4ee8e-7c4a-4dc1-b273-01a70b27e75e")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR039")
 					(unit 1)
@@ -16296,9 +16423,77 @@
 			(uuid "fb772f07-182c-458c-84d2-527c39d883e8")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Variable")
+		(at 72.39 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b885c7ac-24fa-4669-9ff4-4f3b2a1776f7")
+		(property "Reference" "R2"
+			(at 72.39 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Variable"
+			(at 72.39 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3P-L4.5-W4.5-P2.30-BL-FS"
+			(at 72.39 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Variable resistor"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ee506fd-f074-4cf6-9df2-f1426598727c")
+		)
+		(pin "1"
+			(uuid "e47b4632-3601-4daf-b028-cf392baa6df4")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16362,7 +16557,7 @@
 			(uuid "406afdf1-d54b-433a-815a-7734396acc0f")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
 					(unit 1)
@@ -16809,7 +17004,7 @@
 			(uuid "b75e52d3-70b0-43ae-9dec-6231fe171b8f")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR021")
 					(unit 1)
@@ -17050,7 +17245,7 @@
 			(uuid "0c2a2c5f-e21b-40ed-81b4-766f636a1300")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
 					(unit 1)
@@ -17420,7 +17615,7 @@
 			(uuid "50cf7904-2b5f-4a25-98d0-bc43505cb13a")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
 					(unit 1)
@@ -17487,7 +17682,7 @@
 			(uuid "9a3216cd-cda9-4562-91a3-6782a25472d3")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
 					(unit 1)
@@ -17921,7 +18116,7 @@
 			(uuid "c22e86a8-95e6-48f9-ab58-f29b7848df9e")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR033")
 					(unit 1)
@@ -18162,7 +18357,7 @@
 			(uuid "37abff88-8d63-4d6f-9d57-be1f46a861ca")
 		)
 		(instances
-			(project ""
+			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R10")
 					(unit 1)
