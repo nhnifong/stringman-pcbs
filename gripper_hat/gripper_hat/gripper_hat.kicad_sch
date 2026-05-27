@@ -16484,6 +16484,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C124639"
+			(at 72.39 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ee506fd-f074-4cf6-9df2-f1426598727c")
 		)
