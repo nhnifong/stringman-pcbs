@@ -5098,6 +5098,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 36.83) (xy 262.89 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f9bfd5-d248-46af-9dc1-e4ce39f7c99a")
+	)
+	(wire
+		(pts
 			(xy 76.2 63.5) (xy 76.2 68.58)
 		)
 		(stroke
@@ -5435,6 +5445,16 @@
 			(type default)
 		)
 		(uuid "53c36861-6442-4677-98ae-31c4044be240")
+	)
+	(wire
+		(pts
+			(xy 261.62 39.37) (xy 262.89 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53eb3b36-603c-4e99-b616-8c7457310418")
 	)
 	(wire
 		(pts
@@ -5948,6 +5968,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 33.02) (xy 261.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e56852-66e1-43e5-b4ae-a6b146168b68")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 73.66 30.48)
 		)
 		(stroke
@@ -6095,6 +6125,16 @@
 			(type solid)
 		)
 		(uuid "bc7a73bf-d271-462c-8196-ea5c7867515d")
+	)
+	(wire
+		(pts
+			(xy 261.62 41.91) (xy 261.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8c780a-87ea-4f41-b0e5-46e078d79254")
 	)
 	(wire
 		(pts
@@ -6780,7 +6820,7 @@
 			(uuid "fd2c46a1-7aae-42a9-93da-4ab8c0ebf781")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -6842,7 +6882,7 @@
 			(uuid "fdfe2621-3322-4e6b-8d8a-a69772548e87")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR04")
 					(unit 1)
@@ -6904,7 +6944,7 @@
 			(uuid "c4a8cca2-2b39-45ae-a676-abbcbbb9291c")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
 					(unit 1)
@@ -6966,7 +7006,7 @@
 			(uuid "6d128834-dfd6-4792-956f-f932023802bf")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
 					(unit 1)
@@ -7164,7 +7204,7 @@
 			(uuid "782d2c1f-9599-409d-a3cc-c1b6fda247d8")
 		)
 		(instances
-			(project "RaspberryPi-uHAT"
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
 					(unit 1)
@@ -7279,7 +7319,7 @@
 			(uuid "453a6ab0-6717-411b-983f-bee3840010fa")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 1)
@@ -7367,7 +7407,7 @@
 			(uuid "fb6af8b8-1a1f-49a6-a1e3-bec7f0914bd9")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
@@ -7434,7 +7474,7 @@
 			(uuid "3e44b207-7a0d-42ce-b4c9-596c51418085")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR012")
 					(unit 1)
@@ -7500,7 +7540,7 @@
 			(uuid "826efb8d-f0e4-4802-9cd5-4fcbd12b3daa")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
 					(unit 1)
@@ -7588,7 +7628,7 @@
 			(uuid "96522fc2-a439-43ee-8aa6-95e3cbfa7002")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -7654,7 +7694,7 @@
 			(uuid "352df9e0-f640-4f5c-89fa-c40e63da45e7")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
 					(unit 1)
@@ -7740,7 +7780,7 @@
 			(uuid "77a7aae1-45f9-4405-a059-54fac5a9bf88")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
 					(unit 1)
@@ -7828,7 +7868,7 @@
 			(uuid "fcdac88d-0ee9-4414-89e4-25bb3c70221e")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 1)
@@ -7914,7 +7954,7 @@
 			(uuid "1ba1a0d6-edeb-42fb-9e02-e355a4092682")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C7")
 					(unit 1)
@@ -7981,7 +8021,7 @@
 			(uuid "84c5d600-2eda-4fff-8366-df6c89e3edd0")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
 					(unit 1)
@@ -8082,7 +8122,7 @@
 			(uuid "ae96e548-7a70-4ebf-81b1-ff3fd076bf6f")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
 					(unit 1)
@@ -8234,7 +8274,7 @@
 			(uuid "33fe30fd-189a-40e2-9338-5595c402a4b5")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -8387,9 +8427,76 @@
 			(uuid "c7a62435-d21e-4af6-8aae-12e7843cc832")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_6")
+		(lib_id "power:GND")
+		(at 261.62 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464e26d1-a690-4e0c-a39f-83b50dfd2e96")
+		(property "Reference" "#PWR024"
+			(at 261.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d5c4d47-3e30-4792-a1c3-844a141e10b6")
+		)
+		(instances
+			(project "anchor_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8454,7 +8561,7 @@
 			(uuid "caccf0ae-4f8a-4a8a-beaf-adc71f02147e")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
 					(unit 1)
@@ -8627,9 +8734,79 @@
 			(uuid "a80baefd-6649-4b7f-891a-bcd1ec1a03c4")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 267.97 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83343675-ca0f-4551-b7cc-a95907b08e50")
+		(property "Reference" "J7"
+			(at 269.24 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5v out fan right angle"
+			(at 269.24 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 267.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3f194a2-1548-49cc-b5a1-a2f6efc2275a")
+		)
+		(pin "1"
+			(uuid "6c65e486-034b-444b-9c60-d4923a377d9c")
+		)
+		(instances
+			(project "anchor_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8697,7 +8874,7 @@
 			(uuid "ef816320-aae8-49cd-aa43-4d676aa4f148")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J6")
 					(unit 1)
@@ -8926,7 +9103,7 @@
 			(uuid "9a291ebf-5438-4f2d-80ff-c34c9589d1b1")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
 					(unit 1)
@@ -9021,7 +9198,7 @@
 			(uuid "0421db66-35b0-468b-a073-65998c135e15")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "L2")
 					(unit 1)
@@ -9155,7 +9332,7 @@
 			(uuid "ee57bb65-163d-44c1-a302-dfcdd31a6a41")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
 					(unit 1)
@@ -9243,7 +9420,7 @@
 			(uuid "f212ed22-7384-44ab-8cd8-546fd770e081")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
 					(unit 1)
@@ -9395,7 +9572,7 @@
 			(uuid "3283442a-faaf-4ec1-817a-2609ef6a0bb5")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 1)
@@ -9492,7 +9669,7 @@
 			(uuid "808aa8d4-c8f9-4659-b102-7b4e782ac0d9")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Y1")
 					(unit 1)
@@ -9580,7 +9757,7 @@
 			(uuid "ff63f94d-b9ef-4584-8904-9703b5788d97")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
 					(unit 1)
@@ -9714,7 +9891,7 @@
 			(uuid "427f75f4-f113-482d-9953-9b4d427cd0b6")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
 					(unit 1)
@@ -9782,7 +9959,7 @@
 			(uuid "a2f6cd59-de87-4a1a-b86b-d738f0d16b0b")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR017")
 					(unit 1)
@@ -9849,7 +10026,7 @@
 			(uuid "c00ac4d3-2618-445a-a6c8-7d23c23e8fa2")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
 					(unit 1)
@@ -9916,7 +10093,7 @@
 			(uuid "4b3a26fb-8fbd-4368-8756-a1e1c97054ae")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR021")
 					(unit 1)
@@ -10004,9 +10181,76 @@
 			(uuid "58ece7f6-f2fd-4a44-94c9-c3487b61e195")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 261.62 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2729720-85c1-4ec6-b127-8527a46c0839")
+		(property "Reference" "#PWR023"
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 261.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f845f06-dad7-490a-b941-992803233988")
+		)
+		(instances
+			(project "anchor_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10349,7 @@
 			(uuid "204841c4-5864-43fc-9b2b-9f84760634b1")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -10192,7 +10436,7 @@
 			(uuid "906c6877-8bc8-49a4-b428-f2254519ffa3")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
 					(unit 1)
@@ -10259,7 +10503,7 @@
 			(uuid "c167f8ca-c3af-4a15-bd82-34cf20f603e6")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
 					(unit 1)
@@ -10326,7 +10570,7 @@
 			(uuid "9b75b42f-e142-4b2e-9137-55c72ec11239")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
 					(unit 1)
@@ -10413,7 +10657,7 @@
 			(uuid "ec557155-5d90-49b3-a039-86dc1df48745")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
@@ -10521,7 +10765,7 @@
 			(uuid "865ca814-2ca7-4dad-a97b-a862bfa9414b")
 		)
 		(instances
-			(project ""
+			(project "anchor_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U4")
 					(unit 1)

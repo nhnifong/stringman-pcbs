@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 1.0
+      "zones": 0.6
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -37,6 +37,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
@@ -45,11 +46,9 @@
       "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
-      "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0003ffff_82002027",
+    "visible_layers": "00000000_00000000_0003fff7_82000025",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "gripper_hat.kicad_prl",
+    "filename": "anchor_hat.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
