@@ -1,3 +1,72 @@
+# ---------------------------------------------------------------------------
+# KiCad
+# ---------------------------------------------------------------------------
+
+# Per-user / machine-local state (not part of the design)
+*.kicad_prl
+fp-info-cache
 *.lck
-gripper_hat/gripper_hat/gripper_hat-backups
-anchor_hat/anchor_hat/anchor_hat-backups
+~*.lck
+*.kicad_pcb.lck
+*.kicad_sch.lck
+
+# Autosave and backups
+_autosave-*
+*-backups/
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.000
+
+# ---------------------------------------------------------------------------
+# Generated fabrication / assembly outputs
+#
+# These are regenerated from the .kicad_pcb / .kicad_sch on every export.
+# Deliberate fab release snapshots (the "* for jlc v*" folders and the named
+# release .zip files) are already tracked and stay tracked; add new ones with
+# `git add -f` if you want another archived drop.
+# ---------------------------------------------------------------------------
+
+# Gerbers
+*.gbr
+*.gbrjob
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.gm1
+*.g1
+*.g2
+*.g3
+*.g4
+
+# Drill files
+*.drl
+*.xln
+
+# Pick and place
+*.pos
+*-top-pos.csv
+*-bottom-pos.csv
+*_cpl_top.csv
+*_cpl_bot.csv
+
+# Exported gerber bundles and per-project BOM / netlist / report outputs
+*-gerbers.zip
+anchor_hat/anchor_hat/anchor_hat.csv
+gripper_hat/gripper_hat/gripper_hat.csv
+gripper_hat/gripper_hat/gripper_hat.xml
+gripper_hat/gripper_hat/report.txt
+gripper_hat/gripper_hat/gripper_hat/
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
