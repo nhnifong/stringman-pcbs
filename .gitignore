@@ -1,8 +1,6 @@
 # ---------------------------------------------------------------------------
-# KiCad
+# KiCad: per-user / machine-local state (not part of the design)
 # ---------------------------------------------------------------------------
-
-# Per-user / machine-local state (not part of the design)
 *.kicad_prl
 fp-info-cache
 *.lck
@@ -10,7 +8,9 @@ fp-info-cache
 *.kicad_pcb.lck
 *.kicad_sch.lck
 
-# Autosave and backups
+# ---------------------------------------------------------------------------
+# KiCad: autosave, backups and rescue files
+# ---------------------------------------------------------------------------
 _autosave-*
 *-backups/
 *.bak
@@ -19,6 +19,9 @@ _autosave-*
 *.kicad_sch-bak
 *.kicad_sym-bak
 *.000
+*-rescue.lib
+*-rescue.dcm
+*-rescue.kicad_sym
 
 # ---------------------------------------------------------------------------
 # Generated fabrication / assembly outputs
@@ -57,13 +60,73 @@ _autosave-*
 *_cpl_top.csv
 *_cpl_bot.csv
 
-# Exported gerber bundles and per-project BOM / netlist / report outputs
+# Exported gerber bundles
 *-gerbers.zip
+
+# ---------------------------------------------------------------------------
+# Other kicad-cli exports (all regenerated from the design files)
+#
+# .pdf, .png and .svg are deliberately NOT listed: datasheets and reference
+# images are tracked in this repo, so those extensions have to stay allowed.
+# Delete plots by hand, or put them under an ignored directory.
+# ---------------------------------------------------------------------------
+
+# Netlists and BOM/report exports
+*.net
+*.xml
+*.rpt
+report.txt
+
+# 3D / mechanical exports
+*.step
+*.stp
+*.stpz
+*.wrl
+*.glb
+*.stl
+*.ply
+*.brep
+*.xao
+
+# Other plot formats
+*.dxf
+*.hpgl
+*.ps
+
+# Fab data interchange
+*.d356
+*.ipc2581
+*.odb
+
+# Per-project BOM CSVs (one line per board; add a line for any new board)
 anchor_hat/anchor_hat/anchor_hat.csv
 gripper_hat/gripper_hat/gripper_hat.csv
-gripper_hat/gripper_hat/gripper_hat.xml
-gripper_hat/gripper_hat/report.txt
+
+# Stray nested export directory KiCad has created here before
 gripper_hat/gripper_hat/gripper_hat/
+
+# ---------------------------------------------------------------------------
+# Agent tooling
+#
+# Installed skills are local tooling, not part of the board design, so they are
+# ignored. The one exception is kicad-schematic, whose scripts/ were written
+# for this repo and are committed -- they run standalone, e.g.
+#   .agents/skills/kicad-schematic/scripts/schdump.py board.kicad_sch
+#
+# .claude/ is ignored entirely; it only holds symlinks into .agents/ that let
+# the agent auto-discover skills. After a fresh clone, recreate with:
+#   mkdir -p .claude/skills && ln -s ../../.agents/skills/kicad-schematic .claude/skills/
+#
+# Note git cannot re-include a path inside an excluded directory, which is why
+# each level is excluded with /* and then re-included, rather than ".agents/".
+# ---------------------------------------------------------------------------
+.agents/*
+!.agents/skills/
+.agents/skills/*
+!.agents/skills/kicad-schematic/
+
+.claude/
+skills-lock.json
 
 # ---------------------------------------------------------------------------
 # OS cruft
