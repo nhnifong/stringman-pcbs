@@ -5673,12 +5673,6 @@
 		(uuid "367ab368-4b0a-4b79-a41d-dbef86409841")
 	)
 	(junction
-		(at 255.27 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c58dfeb-013a-4279-bcc9-7386bb6bf829")
-	)
-	(junction
 		(at 77.47 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6602,26 +6596,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 74.93) (xy 256.54 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cfd1c91-3c2c-44ad-aaef-e4675c839584")
-	)
-	(wire
-		(pts
-			(xy 256.54 74.93) (xy 256.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d086f99-8ab2-49b4-961c-43c9d8e4844c")
-	)
-	(wire
-		(pts
 			(xy 193.04 67.31) (xy 226.06 67.31)
 		)
 		(stroke
@@ -7112,16 +7086,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 80.01) (xy 260.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adcca03-cc72-4434-8b68-26233585cc8c")
-	)
-	(wire
-		(pts
 			(xy 154.94 127) (xy 181.61 127)
 		)
 		(stroke
@@ -7439,16 +7403,6 @@
 			(type solid)
 		)
 		(uuid "b8286aaf-3086-41e1-a5dc-8f8a05589eb9")
-	)
-	(wire
-		(pts
-			(xy 252.73 74.93) (xy 255.27 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf32b4f-8c52-4ebf-aeeb-2ac476c933bc")
 	)
 	(wire
 		(pts
@@ -9781,84 +9735,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 255.27 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16802500-ebf3-47fc-8633-fb3d3504597e")
-		(property "Reference" "D2"
-			(at 252.73 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B5819W"
-			(at 252.73 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 255.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Flyback diode across the fan, cathode to +5V"
-			(at 255.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C8598"
-			(at 255.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cf555f9-4b06-4425-a3ab-5f1ea6892246")
-		)
-		(pin "2"
-			(uuid "04011455-be0c-437a-a5d3-e891bf467b3e")
-		)
-		(instances
-			(project "gripper_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 252.73 46.99 0)
 		(unit 1)
@@ -10669,8 +10545,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 77.47 0)
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 269.24 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10678,7 +10554,7 @@
 		(dnp no)
 		(uuid "2f762790-f3f6-4d53-9196-30c400b1d534")
 		(property "Reference" "J4"
-			(at 267.97 77.4699 0)
+			(at 269.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,8 +10562,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5v for fan"
-			(at 279.146 79.756 0)
+		(property "Value" "SM04B-SRSS-TB(LF)(SN)"
+			(at 247.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,8 +10571,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 265.43 77.47 0)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,8 +10589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 77.47 0)
+		(property "Description" "JST SH 1.0mm 4-pin side-entry SMD header - 4-wire PWM fan"
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +10599,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +10608,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10617,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +10626,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10635,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +10644,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +10653,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +10662,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +10671,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +10680,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +10689,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10822,7 +10698,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 265.43 77.47 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,8 +10706,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5251182"
-			(at 265.43 77.47 0)
+		(property "JLCPCB Part #" "C160404"
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,10 +10716,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c316449-6786-46f0-88d1-00f7cbb1fc7c")
+			(uuid "5ac3c0f9-5231-4914-bfdd-ab5f4f1cd513")
 		)
 		(pin "2"
-			(uuid "bc3ebdf8-5fb1-4eae-8daa-80043e1164a2")
+			(uuid "7e672d74-1930-45b0-b2bf-8636970f17fd")
+		)
+		(pin "3"
+			(uuid "2f599dff-3c99-4d7f-86b7-ba0ae2fb3965")
+		)
+		(pin "4"
+			(uuid "91e8e706-6eef-4038-ad25-30c0d70d8974")
 		)
 		(instances
 			(project "gripper_hat"
@@ -12090,7 +11972,7 @@
 		(dnp no)
 		(uuid "407da9a3-7f5f-4cad-a379-ac59ef2af0d6")
 		(property "Reference" "Q2"
-			(at 255.27 82.55 0)
+			(at 250.19 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,7 +11981,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 255.27 85.09 0)
+			(at 250.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13070,71 +12952,6 @@
 			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56754317-eae0-48dd-83c6-d3128d89ed31")
-		(property "Reference" "#PWR042"
-			(at 255.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fb27e72-2507-4e7f-9a28-1a5049ab1a7b")
-		)
-		(instances
-			(project "gripper_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15796,7 +15613,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 260.35 77.47 0)
+		(at 264.16 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15804,7 +15621,7 @@
 		(dnp no)
 		(uuid "971f6ce4-7214-455f-b812-9a90890fcd2e")
 		(property "Reference" "#PWR023"
-			(at 260.35 81.28 0)
+			(at 264.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15813,7 +15630,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.7183 73.1456 0)
+			(at 264.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15821,7 +15638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 77.47 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15829,7 +15646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 77.47 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16095,6 +15912,71 @@
 			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c8d2713-a49b-4dba-94ce-50061182b03f")
+		(property "Reference" "#PWR047"
+			(at 264.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27471934-2e56-45f8-a971-6176dd2add53")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -16767,7 +16649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS1015IDGS"
+		(property "Value" "ADS1015IDGSR"
 			(at 99.9333 162.56 0)
 			(effects
 				(font
@@ -16911,7 +16793,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C30178086"
+		(property "JLCPCB Part #" "C193969"
 			(at 97.79 175.26 0)
 			(effects
 				(font
@@ -17021,6 +16903,73 @@
 			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 269.24 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07152846-45a3-4545-86ae-4189673d38fd")
+		(property "Reference" "#PWR048"
+			(at 271.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 269.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b25265f-8281-4126-9d43-c897b03283da")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -18246,6 +18195,158 @@
 			(project "gripper_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ce9a34-3099-43ed-b47a-130380b5d665")
+		(property "Reference" "R9"
+			(at 256.54 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 256.54 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gate series resistor from GPIO18"
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dd198f6-583f-4b14-a9aa-24b630d8a0e7")
+		)
+		(pin "2"
+			(uuid "268230c8-3f4c-42b1-a561-1a798eee17ff")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e536ba-a855-4902-8f8c-4400ab52e60e")
+		(property "Reference" "R13"
+			(at 264.16 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.16 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gate series resistor from GPIO18"
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "846db512-b7c1-40ea-9a50-6593eca43887")
+		)
+		(pin "2"
+			(uuid "edebe6b7-b1d1-4b04-b1a2-de8f72ce42a4")
+		)
+		(instances
+			(project "gripper_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -19549,6 +19650,122 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 267.97 100.33) (xy 269.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cefa09-4f2c-4703-b1ec-4492b24c33f8")
+	)
+	(wire
+		(pts
+			(xy 269.24 100.33) (xy 269.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e856a538-fa37-4b35-b155-3f14faf17999")
+	)
+	(label "GPIO17"
+		(at 247.65 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e00b542c-8a2f-4cfc-8625-59ea284d2a69")
+	)
+	(wire
+		(pts
+			(xy 264.16 80.01) (xy 264.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c40f18-bb6b-4c90-ae5d-e507dc586c14")
+	)
+	(wire
+		(pts
+			(xy 264.16 87.63) (xy 264.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8093ea61-ac00-46d6-8875-b93725f8f116")
+	)
+	(wire
+		(pts
+			(xy 264.16 82.55) (xy 257.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961d9f0d-5d54-40a6-9d90-52faba02879f")
+	)
+	(wire
+		(pts
+			(xy 257.81 82.55) (xy 257.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bec369b-cb27-46ea-b0f3-ca4c005f48bb")
+	)
+	(wire
+		(pts
+			(xy 257.81 74.93) (xy 252.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd022437-8de4-47dc-bedf-7bd3bdcc1f79")
+	)
+	(wire
+		(pts
+			(xy 264.16 85.09) (xy 260.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73cd972-e14a-44ed-93ba-8ac90cffad6e")
+	)
+	(wire
+		(pts
+			(xy 260.35 85.09) (xy 260.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7990cdd-bda3-43be-9efa-06d9f83124e0")
+	)
+	(wire
+		(pts
+			(xy 252.73 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e33aa3-93c1-473d-b9de-c010bcaa45df")
+	)
+	(junction
+		(at 260.35 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d62ac910-557a-4cc3-9f43-2f28e001436a")
 	)
 	(sheet_instances
 		(path "/"
