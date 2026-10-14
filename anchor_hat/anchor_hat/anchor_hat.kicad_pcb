@@ -7256,7 +7256,7 @@
 				)
 			)
 		)
-		(property "Value" "560kOhm"
+		(property "Value" "200kOhm"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "602c24bb-0620-4f6a-968f-44a82640e4f6")
@@ -7279,7 +7279,7 @@
 				)
 			)
 		)
-		(property "Description" "UVLO upper divider: VIN to EN"
+		(property "Description" "UVLO upper divider: VIN to EN; with R12 sets 7.4V on / 6.7V off"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

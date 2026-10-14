@@ -13573,7 +13573,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560kOhm"
+		(property "Value" "200kOhm"
 			(at 173.99 110.49 0)
 			(effects
 				(font
@@ -13600,7 +13600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "UVLO upper divider: VIN to EN"
+		(property "Description" "UVLO upper divider: VIN to EN; with R12 sets 7.4V on / 6.7V off"
 			(at 170.18 116.84 0)
 			(effects
 				(font
