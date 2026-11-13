@@ -89,6 +89,14 @@ block from the `.kicad_sym`, rename it to `"Lib:Name"`, and re-indent one level
 deeper -- leave the inner `Name_0_1` / `Name_1_1` sub-symbols under their bare
 name. Rebuilding the block from a whitelist of property names silently drops
 entries such as `(property private "KLC_S3.3" ...)`, which ERC then reports as
-`lib_symbol_mismatch`. Symbols that `extends` a parent are the one case needing
-real work: the cache must be flattened, so splice in the parent's graphics and
-pins while keeping the child's own properties.
+`lib_symbol_mismatch`.
+
+**Flattening an `extends` symbol means inheriting the parent, not copying the
+child.** The cache holds the flattened symbol, and KiCad builds it by taking the
+parent whole and letting the child override individual properties. So start from
+the parent block, substitute the child's property blocks over the same-named
+parent ones, append any the child adds, then rename the inner `_0_1` / `_1_1`
+sub-symbols from the parent's name to the child's. Copying only the child's
+properties silently drops parent-only ones: `Transistor_BJT:MMBT2222A` inherits
+`Sim.Device` and `Sim.Pins` from `Q_NPN_BEC`, and losing them is a
+`lib_symbol_mismatch`.
